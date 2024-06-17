@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Website Footer</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        
+        footer {
+            background: url('https://cdn.pixabay.com/photo/2016/11/22/22/24/adult-1850925_640.jpg') no-repeat center center;
+            background-size: cover;
+            color: #fff;
+            padding: 40px 0;
+            text-align: center;
+            height: 100vh;
+            
+        }
+        
+        .footer-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0px 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        
+        
+        .footer-links {
+            margin-bottom: 20px;
+        }
+        
+        .footer-links a {
+            color: #fff;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+        
+        .footer-links a:hover {
+            text-decoration: underline;
+        }
+        
+        .footer-social a {
+            margin: 0 10px;
+        }
+        
+        .footer-social img {
+            width: 30px;
+        }
+        
+        .footer-contact p {
+            margin: 5px 0;
+        }
+        
+        @media (min-width: 768px) {
+            .footer-container {
+                flex-direction: row;
+                justify-content: space-between;
+            }
+        
+            .footer-logo, .footer-links, .footer-social, .footer-contact {
+                margin-bottom: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Content of the website -->
+    
+    <footer>
+        <div class="footer-container">
+            
+            <div class="footer-links">
+                <a href="#">Home</a>
+                <a href="#">About Us</a>
+                <a href="#">Services</a>
+                <a href="#">Contact</a>
+                <a href="#">Privacy Policy</a>
+            </div>
+            <div class="footer-social">
+                <a href="#"><img src="#" alt="Facebook"></a>
+                <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
+                <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
+            </div>
+            <div class="footer-contact">
+                <p>123 Gym Street, Fitness City, 45678</p>
+                <p>Email: befit@gymwebsite.com</p>
+                <p>Phone: (+91) 91256-78990</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
